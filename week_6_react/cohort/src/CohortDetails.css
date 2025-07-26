@@ -1,0 +1,38 @@
+.box {
+  width: 300px; /* cite: 26 */
+  display: inline-block; /* cite: 27 */
+  margin: 10px; /* cite: 28 */
+  padding: 10px 20px; /* cite: 29, 30 */
+  border: 1px solid black; /* cite: 31 */
+  border-radius: 10px; /* cite: 32 */
+}
+
+dt {
+  font-weight: 500; /* cite: 33 */
+}
+
+.cohort-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.cohort-card h3 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.cohort-info p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.cohort-info strong {
+  color: #333;
+}
